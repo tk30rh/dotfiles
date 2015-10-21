@@ -24,14 +24,6 @@ if has('vim_starting')
     NeoBundle 'lazywei/vim-matlab'
     " Unite.vimで最近使ったファイルを表示できる
     NeoBundle 'Shougo/neomru.vim'
-    NeoBundle 'Shougo/vimproc', {
-  \ 'build' : {
-    \ 'windows' : 'make -f make_mingw32.mak',
-    \ 'cygwin' : 'make -f make_cygwin.mak',
-    \ 'mac' : 'make -f make_mac.mak',
-    \ 'unix' : 'make -f make_unix.mak',
-  \ },
-\ }  
     call neobundle#end()
     
     filetype plugin indent on
